@@ -9,7 +9,7 @@
 ## Запуск приложения
 
 - Склонировать репозиторий.
-  `git clone <репозиторий>`
+  `git clone https://github.com/Kraken4530/weather-docker-app.git`
 - Перейти в папку docker.
   `cd docker`
 - Выполнить команду:
