@@ -13,7 +13,7 @@
 - Перейти в папку docker.
   `cd docker`
 - Выполнить команду:
-  `sudo docker compose up --build -d`
+  `docker compose up --build -d`
 
 ## Как проверить работу приложения
 
@@ -49,6 +49,6 @@
 ### Проверка подключения к PostgreSQL
 
 ```bash
-sudo docker compose exec postgres psql -U user -d weatherdb
+docker compose exec postgres psql -U user -d weatherdb
 SELECT * FROM weather;
 ```
